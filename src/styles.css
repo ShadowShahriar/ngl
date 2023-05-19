@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Nunito';
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body,
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	padding: 1em 2em;
+}
+
+form,
+button,
+textarea {
+	font-family: inherit;
+	font-weight: 500;
+	width: 100%;
+}
+
+h1 {
+	margin-bottom: 0.75em;
+	font-weight: 700;
+}
+
+button {
+	margin-top: 0.75em;
+	padding: 1em 1em;
+	font-size: 1em;
+}
+
+textarea {
+	resize: none;
+	font-size: 1em;
+	line-height: 140%;
+}
